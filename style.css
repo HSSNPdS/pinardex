@@ -6,9 +6,12 @@
 }
 
 body {
-	background: #EFEFBB;
+	/* background: #EFEFBB;
 	background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
-	background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+	background: linear-gradient(to right, #D4D3DD, #EFEFBB); */
+	background-image: url('./assets/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	display: flex;
 	flex-direction: column;
@@ -18,8 +21,13 @@ body {
 	margin: 0;
 }
 
-h1 {
-	letter-spacing: 3px;
+.logo{
+	margin: 5px 0;
+}
+
+.chassis{
+	image-rendering: url('./assets/pinardex-body.png');
+	background-repeat: no-repeat;
 }
 
 .poke-container {
