@@ -30,6 +30,172 @@ body {
 	background-repeat: no-repeat;
 }
 
+.grid-container {
+	display: grid;
+	grid-template-columns: 400px 400px;
+  }
+
+.grid-item1{
+	display: column;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+}
+
+.img-box{
+	width: 254px;
+	height: 186;
+	background: url(01.png), linear-gradient(180deg, #DAFFBC 34.58%, #647754 99.99%, #000000 100%);
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+.img-box img{
+	width: 254px;
+	height: 186;
+}
+
+.img-box h3{
+	font-family: Press Start 2P;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 10px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	position: absolute;
+	width: 60px;
+	height: 24.95px;
+	top: 297px;
+
+	background: #E2FFD8;
+	border: 0.2px solid #000000;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.pokemon-name{
+	width: 254px;
+	height: 43px;
+
+	font-family: Press Start 2P;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+	background: #E2FFD8;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.pokemon-type{
+	display: flex;
+	gap: 10px;
+}
+
+.pokemon-type p{
+	width: 126px;
+	height: 21px;
+
+	font-family: Press Start 2P;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+
+	color: #000000;
+
+	background: #E2FFD8;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.status{
+	display: flex;
+	gap: 10px;
+}
+
+.status-box{
+	width: 80px;
+	height: 80px;
+
+	background: #E2FFD8;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.status-box h1{
+	font-family: Press Start 2P;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+
+	color: #000000;
+}
+
+.status-box p{
+	font-family: Press Start 2P;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+
+	color: #000000;
+}
+
+.grid-item2{
+	display: column;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+}
+
+.about{
+	width: 254px;
+	height: 192px;
+
+	background: #E2FFD8;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.about p{
+	font-family: Press Start 2P;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 10px;
+	text-align: justify;
+
+	color: #000000;
+}
+
+
+
+
+
+
 .poke-container {
 	display: flex;
 	flex-wrap: wrap;
